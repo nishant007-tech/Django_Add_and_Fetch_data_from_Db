@@ -1,0 +1,9 @@
+<html>
+<body bgcolor="cyan">
+    <ul>
+    {% for question in latest_question%}
+        <li><a href="/polls/{{question.id}}"><b>{{question.question_text}}</b></a></li>
+    {% endfor%}
+    </ul>
+</body>
+</html>

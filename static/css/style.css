@@ -1,0 +1,15 @@
+body {
+  background: url('/static/images/image6.jpg') repeat;
+  color: Cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+ font-size:140%;
+  text-align: left;
+  padding: 15px;
+}
+
